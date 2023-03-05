@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* CSS header */
+@media  (min-width: 460px)  and (max-width:768) {
+    .navbar{
+        text-align: left;
+        padding-right: 10px;
+    }
+    .navbar-toggler-icon{
+        position: absolute;
+        right:0;
+    }
+}
+
+.nav-link {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+    color: #824c71;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color:whitesmoke;
+}
+
+
+
+.navbar-brand {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+    color: #824c71;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color:whitesmoke;
+}
+.navbar {
+    position: sticky;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10rem;
+    padding-bottom: 10px;
+}
+
+.navbar-toggler{
+    background-color: whitesmoke;
+}
+
+.nav-item{
+    padding-left:10rem;
+    text-align: center;
+}
+
+/* CSS main */
+
+main{
+    background-color: #f3f7f0;
+    padding-top: 20px;
+    padding-bottom: 10rem;
+}
+/* CSS card */
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.card {
+    width: 200px;
+    height: min-content;
+    transition: all .3s;
+    position: relative;
+    border-radius: .5rem 2rem;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.img {
+    transition: all .3s;
+    width: 100%;
+}
+
+.img:hover {
+    transform: scale(1.3);
+}
+
+.img-container {
+    display: grid;
+    border-radius: .5rem 2rem;
+    height: 270px;
+    overflow: hidden;
+}
+
+.description {
+    position: absolute;
+    bottom: .5rem;
+    left: .5rem;
+    text-align: start;
+    padding: .5rem 1em;
+    width: 90%;
+    transition: all 0.5s ease;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    backdrop-filter: blur(.1rem);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: .5rem 2rem;
+}
+
+.description:hover {
+    transform: perspective(100px) translateX(7px) rotateX(3deg) rotateY(3deg) scale(1);
+    box-shadow: none;
+}
+
+.boton-contacto {
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.title {
+    color: aliceblue;
+}
+
+article{
+    font-family: 'Dosis', sans-serif;
+}
+.title_main {
+    text-decoration-line: underline;
+    font-size: 80px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* .img_main {
+    display: grid;
+    width: 40%;
+    height: 40%;
+    margin-left: 58rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+
+.text_paragraph {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+}
+
+/* CSS footer */
+
+.mail {
+    text-decoration: none;
+    color: black;
+}
+.icon_redes{
+    width: 2%;
+    height: 2%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.icons{
+    display: inline;
+}
+
+footer {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #788475;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.boton-contacto {
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+}
