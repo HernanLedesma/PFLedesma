@@ -20,16 +20,33 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="nav_bar"><a href="../index.html">PHASER MUSIC</a></li>
-                <li class="nav_bar"><a href="./instrumentos.html">INSTRUMENTOS</a></li>
-                <li class="nav_bar"><a href="./noticias.html">NOTICIAS</a></li>
-                <li class="nav_bar"><a href="./multimedia.html">MULTIMEDIA</a></li>
-                <li class="nav_bar"><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
+        <nav class="navbar fixed-top navbar-expand-md">
+            <div class="grid text-center ">
+                <div class="g-col-12">
+                    <a class="navbar-brand" href="index.html">PHASER MUSIC</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="offcanvas navbar-collapse row g-col-3" id="navbarNav">
+                    <ul class="navbar-nav g-col-9">
+                        <li class="nav-item">
+                            <a class="nav-link " href="./pages/instrumentos.html">INSTRUMENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/noticias.html">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/multimedia.html">MULTIMEDIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </Header>
+    </header>
     <main>
         <section class="card-container">
             <article>
