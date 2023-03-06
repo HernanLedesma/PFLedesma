@@ -15,21 +15,17 @@ img {
 
 
 /* CSS header */
-@media  (min-width: 460px)  and (max-width:768) {
-    .navbar{
-        text-align: left;
-        padding-right: 10px;
-    }
-    .navbar-toggler-icon{
-        position: absolute;
-        right:0;
-    }
+
+.navbar {
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-link {
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
-    text-align: center;
     list-style: none;
     color: #824c71;
     text-decoration: none;
@@ -40,37 +36,21 @@ img {
     color:whitesmoke;
 }
 
-
-
 .navbar-brand {
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
-    text-align: center;
-    list-style: none;
     color: #824c71;
-    text-decoration: none;
     font-weight: bold;
 }
 
 .navbar-brand:hover {
     color:whitesmoke;
 }
-.navbar {
-    position: sticky;
-    background-color: black;
-    padding-top: 10px;
-    padding-left: 10rem;
-    padding-bottom: 10px;
-}
 
 .navbar-toggler{
     background-color: whitesmoke;
 }
 
-.nav-item{
-    padding-left:10rem;
-    text-align: center;
-}
 
 /* CSS main */
 
@@ -78,6 +58,19 @@ main{
     background-color: #f3f7f0;
     padding-top: 20px;
     padding-bottom: 10rem;
+}
+
+.main_index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img_main {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* CSS card */
 
@@ -147,6 +140,11 @@ main{
     margin-top: 25px;
 }
 
+.boton-contacto:hover{
+    color: white;
+    background-color: #824c71;
+}
+
 .title {
     color: aliceblue;
 }
@@ -158,27 +156,36 @@ article{
     text-decoration-line: underline;
     font-size: 80px;
     font-family: 'Dosis', sans-serif;
-    text-align: center;
     margin-bottom: 5px;
+    text-align: center;
 }
 
-/* .img_main {
-    display: grid;
-    width: 40%;
-    height: 40%;
-    margin-left: 58rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-} */
 
 .text_paragraph {
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 20px;
     text-align: justify;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 30px;
+
 }
 
+/* Media query main */
+@media (max-width: 767px) {
+    .title_main {
+        text-align: left;
+        font-size: 50px;
+    }
+    .img_main {
+        width: 80%;
+        height: 80%;
+    }
+    .text_paragraph{
+        font-size: 20px;
+    }
+}
 /* CSS footer */
 
 .mail {
