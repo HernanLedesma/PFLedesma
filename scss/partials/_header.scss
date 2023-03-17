@@ -1,0 +1,30 @@
+.navbar {
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-anchor: middle;
+}
+
+.nav-link {
+    padding-left: 3rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    list-style: none;
+    color: #BB84E8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+}
+
+.navbar-brand {
+    width: 300px;
+}
+
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
