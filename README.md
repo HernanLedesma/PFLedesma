@@ -10,7 +10,7 @@ Este proyecto consiste en una página web que simula una tienda virtual y de ase
 - SASS
 
 
-## Contribucion
+## Contribución
 
 Si deseas contribuir a este proyecto, puedes seguir los siguientes pasos:
 
