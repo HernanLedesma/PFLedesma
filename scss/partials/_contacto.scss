@@ -70,15 +70,14 @@ textarea {
 /* Media query main */
 @media (max-width: 768px) {
     .title_main {
-        text-align: left;
-        font-size: 50px;
+        font-size: 40px;
     }
     .img_main {
         width: 80%;
         height: 80%;
     }
     .text_paragraph{
-        font-size: 30px;
+        font-size: 20px;
         margin: 10px;
     }
     .contact-form label{
