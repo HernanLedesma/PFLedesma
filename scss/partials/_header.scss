@@ -6,8 +6,10 @@
     text-anchor: middle;
 }
 
+.nav-item {
+    padding-left: 50px;
+}
 .nav-link {
-    padding-left: 3rem;
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
     list-style: none;
@@ -21,7 +23,6 @@
 }
 
 .navbar-brand {
-    padding-right: 3rem;
     width: 300px;
 }
 

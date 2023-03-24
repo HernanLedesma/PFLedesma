@@ -20,8 +20,11 @@ img {
   text-anchor: middle;
 }
 
+.nav-item {
+  padding-left: 50px;
+}
+
 .nav-link {
-  padding-left: 3rem;
   font-family: "Dosis", sans-serif;
   font-size: 30px;
   list-style: none;
@@ -35,7 +38,6 @@ img {
 }
 
 .navbar-brand {
-  padding-right: 3rem;
   width: 300px;
 }
 
@@ -68,6 +70,7 @@ main {
   text-decoration-line: underline;
   font-size: 50px;
   font-family: "Dosis", sans-serif;
+  font-weight: bold;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -79,7 +82,7 @@ main {
   padding-bottom: 20px;
   text-align: justify;
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .card-container {
@@ -181,6 +184,14 @@ article {
     grid-template-rows: auto;
   }
 }
+.title-page {
+  padding-bottom: 3rem;
+  font-size: 45px;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
 .video-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -264,7 +275,7 @@ article {
 .contact-form .heading {
   font-size: 35px;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: bold;
 }
 
@@ -298,12 +309,13 @@ textarea {
   border-radius: 5px;
   padding: 10px 30px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
 }
 
 .contact-form button[type=submit]:hover {
-  transform: scale(1.2);
-  transition: transform 0.3s ease-in-out;
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
 }
 
 .contact-maps {
